@@ -954,7 +954,7 @@ html {
 }
 
 .stat-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 0.75rem;
     animation: gentleFloat 3s ease-in-out infinite;
 }
@@ -999,7 +999,7 @@ html {
 }
 
 .btn-icon {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     animation: bounce 2s ease-in-out infinite;
 }
 
@@ -1132,24 +1132,23 @@ html {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.75rem 1.25rem;
-    background: white;
+    padding: 0.5rem 1rem;
+    background: transparent;
     border-radius: 50px;
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--text);
-    border: 1px solid var(--border);
+    border: none;
     transition: all 0.3s ease;
 }
 
 .trust-badge:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     opacity: 1;
 }
 
 .badge-icon {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .hero-image {
@@ -2788,7 +2787,7 @@ section {
     }
 
     .stat-icon {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .stat-mega .stat-value {
@@ -2802,7 +2801,7 @@ section {
     }
 
     .btn-icon {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .cta-benefits {
