@@ -792,6 +792,12 @@ html {
     align-items: center;
 }
 
+/* Override default hero container grid layout */
+.hero-ultimate .container {
+    display: block !important;
+    grid-template-columns: unset !important;
+}
+
 .hero-bg-animated {
     position: absolute;
     top: 0;
