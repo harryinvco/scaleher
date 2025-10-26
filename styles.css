@@ -940,22 +940,22 @@ html {
 .hero-stats-mega {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 3rem;
     margin-bottom: 3rem;
-    padding: 2rem;
-    background: white;
-    border-radius: 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .stat-mega {
     text-align: center;
-    padding: 1rem;
+    padding: 0;
 }
 
 .stat-icon {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
     animation: gentleFloat 3s ease-in-out infinite;
 }
 
@@ -2782,12 +2782,12 @@ section {
 
     .hero-stats-mega {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
-        padding: 1.5rem;
+        gap: 2rem;
+        padding: 0;
     }
 
     .stat-icon {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .stat-mega .stat-value {
